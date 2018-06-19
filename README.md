@@ -1,7 +1,7 @@
 # iste_itnu_2018
 Website for ISTE club of Nirma University for 2018
 
-![GitHub Logo](/img/iste-logo.png)
+![GitHub Logo](/img/iste-logo-dark.png)
 
 ## About the club
 ISTE Students’ Chapter is a premier club at the Institute Of Technology, Nirma University. It is the only techno-cultural social club of that organizes technical and non- technical events at National, State ,University and Institute level round the year addressing the technical and creative side of the TECHNOCRATS.ISTE, ISTE-ITNU is that umbrella organisation which shelters, cares for and motivates the students to use their creative minds and their boundless imagination in the best possible way. The young, energetic, enthusiastic ISTEans have always made their mark wherever they set their foot. And the result is ISTE-ITNU has been awarded the "BEST STUDENTS' CHAPTER AWARD" Six times.
