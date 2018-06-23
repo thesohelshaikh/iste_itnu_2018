@@ -106,6 +106,15 @@ img {
 #team-holder {
   margin-top: 50px;
 }
+
+.map {
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
 /* Media Queries */
 
 /*To centre the content using flexbox, removes the image ig width is less than 991px.*/
