@@ -74,6 +74,9 @@ img {
   text-transform: uppercase;
 }
 
+.follow {
+  margin-bottom: 100px;
+}
 .feature-content {
   padding: 8rem 0;
   overflow: hidden;
