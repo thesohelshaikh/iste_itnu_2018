@@ -12,6 +12,9 @@
   <!-- custom css -->
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- custom js -->
+  <script type="text/javascript" src="js/main.js"></script>
+
   <!-- favicon -->
   <link rel="icon" href="img/favicon.png" type="img/png">
 
@@ -20,7 +23,10 @@
   <title>ISTE - ITNU</title>
 </head>
 
-<body>
+<body onload="load()">
+
+<div id="loader"></div>
+<div class="animate-bottom" style="display:none;" id="myDiv">
   <!-- displays iste logo -->
   <div class="brand-logo">
     <header class="bg-dark">
@@ -158,7 +164,7 @@
             <div class="row text-center mt-2 lead">
               <div class="col-md-12">
                 <p>
-                  Follow us in social networks. You can also subscribe for our updates. <br>We are going to provide you with actual and important for you information without spam or fluff.
+                  Follow us in social networks. You can also subscribe for our update. <br>We are going to provide you with actual and important for you information without spam or fluff.
                 </p>
               </div>
             </div>
@@ -243,6 +249,7 @@
 
   <!-- footer ends -->
 
+</div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
