@@ -255,3 +255,12 @@ events page
     align-items: center;
   }
 }
+
+/* 
+====================
+credits to developer
+====================
+ */
+#credits-sohel a {
+  color: white
+}
