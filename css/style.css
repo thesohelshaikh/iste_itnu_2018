@@ -258,9 +258,23 @@ events page
 
 /* 
 ====================
+Social icons
+====================
+ */
+
+.fab {
+  color: orangered;
+}
+.fab:hover {
+  opacity: 0.7;
+  transform: scale(1.2);
+}
+/* 
+====================
 credits to developer
 ====================
  */
 #credits-sohel a {
   color: white
 }
+
