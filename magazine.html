@@ -14,25 +14,26 @@
 
   <!-- favicon -->
   <link rel="icon" href="img/favicon.png" type="img/png">
-  <title>Sponsors</title>
+  <title>Magazine</title>
 </head>
 
 <body>
-  <!-- displays iste logo -->
-  <div class="brand-logo">
-    <header class="bg-dark">
-      <div class="row flex-nowrap justify-content-between align-items-center">
-        <div class="col-12 text-center">
-          <a href="index.html">
-            <img src="img/iste-logo.png" class="img-fluid" alt="Responsive image" id="header-img">
-          </a>
-        </div>
+<!-- displays iste logo -->
+<div id="brand-logo">
+  <header class="">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-12 text-center">
+        <a href="index.html">
+        <img src="img/iste-logo.png" class="img-fluid" alt="Responsive image" id="header-img">
+      </a>
       </div>
-    </header>
-  </div>
+    </div>
+  </header>
+</div>
+<!-- logo ends -->
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#iste-navbar" aria-controls="iste-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,8 +51,11 @@
         <li class="nav-item">
           <a class="nav-link" href="team.html">Our Team</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="sponsors.html">Sponsors</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="magazine.html#magazine">Magazine<span class="badge badge-pill badge-danger mx-1">New</span></a>
         </li>
       </ul>
     </div>
@@ -67,28 +71,29 @@ Magazine
 <div class="container mt-5">
     <div class="row" id="magazine">
         <div class="col-12">
-            <h1>Magazine</h1>
+            <h1>Magazine(Coming soon)</h1>
         </div>
+
         <div class="col-12">
-                <object data="assets/md.pdf"  width="100%" height="800">
-                    <embed src="assets/md.pdf" width="600px" height="500px" />
-                        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="assets/md.pdf">View the PDF</a>.</p>
+                <object data="assets/cover.pdf"  width="100%" height="800">
+                    <embed src="assets/cover.pdf" width="600px" height="500px" />
+                        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="assets/cover.pdf">View the PDF</a>.</p>
                 </embed></object>
         </div>
     </div>
 
 </div>
 
-  <!-- footer -->
-  <div class="bg-dark footer">
-    <footer class="container py-5">
+    <!-- footer starts -->
+    <div class="footer" id="footer">
+      <footer class="container py-5">
         <div class="row">
           <div class="col-12 col-md">
             <img src="img/iste-logo.png" alt="">
             <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
           </div>
           <div class="col-6 col-md">
-            <h5 class="text-light">Features</h5>
+            <h5 class="text-light">Events</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Cool stuff</a></li>
               <li><a class="text-muted" href="#">Random feature</a></li>
@@ -99,7 +104,7 @@ Magazine
             </ul>
           </div>
           <div class="col-6 col-md">
-            <h5 class="text-light">Resources</h5>
+            <h5 class="text-light">Explore</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Resource</a></li>
               <li><a class="text-muted" href="#">Resource name</a></li>
@@ -120,7 +125,7 @@ Magazine
             <h5 class="text-light">About</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" target="_blank" href="https://thesohelshaikh.github.io/">Meet the Developer</a></li>
               <li><a class="text-muted" href="#">Privacy</a></li>
               <li><a class="text-muted" href="#">Terms</a></li>
             </ul>
@@ -132,9 +137,10 @@ Magazine
             </div>
         </div>
       </footer>
-  </div>
+    </div>
 
-  <!-- footer ends -->
+
+    <!-- footer ends -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

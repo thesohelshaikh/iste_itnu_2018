@@ -20,7 +20,7 @@ index page
   margin: -75px 0 0 -75px;
   border: 5px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 10px solid #ee6002;
+  border-top: 10px solid #03254E;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
@@ -81,6 +81,17 @@ index page
   max-height: 15vh;
 }
 
+#brand-logo {
+background: #03254E;
+}
+nav {
+  background-image: linear-gradient(to right, rgb(146,254,157) 0%, rgb(0,201,255) 100%);
+}
+
+
+#footer {
+  background: #03254E;
+}
 /* loader css ends */
 
 .section-text {
@@ -97,6 +108,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   color: #6c6f73;
+  background-image: linear-gradient(to right, rgba(146,254,157,0.7) 0%, rgba(0,201,255,0.7) 100%);
 }
 
 h1, h2, h3, h4, h5 {
@@ -120,7 +132,7 @@ img {
 }
 
 .feature-dark {
-  background: #262F36;
+  background: #03254E;
   color: white;
 }
 
@@ -263,7 +275,7 @@ Social icons
  */
 
 .fab {
-  color: orangered;
+  color: #03254E;
 }
 .fab:hover {
   opacity: 0.7;
