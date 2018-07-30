@@ -216,7 +216,13 @@ our team page
   border: 5px solid #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+@media(max-width:568px) {
+  #team .member .pic {
+    height: 50px;
+    width: 50%;
+    display: none;
+  }
+}
 #team .member .pic img {
   object-fit: cover;
   max-width: 100%;
