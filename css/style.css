@@ -192,6 +192,68 @@ contact page
 /*
 ===================================================================
 
+our team page
+
+===================================================================
+*/
+#team {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+#team .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#team .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#team .member .pic img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+#team .member h4 {
+  font-weight: 600;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#team .member .social {
+  margin-top: 15px;
+}
+
+#team .member .social a {
+  color: #b3b3b3;
+}
+
+#team .member .social a:hover {
+  color: #3f5af2;
+}
+
+#team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+/*
+===================================================================
+
 events page
 
 ===================================================================
