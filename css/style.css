@@ -8,6 +8,10 @@ index page
 ===================================================================
 */
 
+/* Removes additional margin on left and right */
+.row {
+  margin: 0;
+  }
 /* Center the loader */
 
 #loader {
@@ -88,6 +92,7 @@ index page
 
 #brand-logo {
 background: #03254E;
+margin: 0;
 }
 nav {
   background-image: linear-gradient(to right, rgb(146,254,157) 0%, rgb(0,201,255) 100%);
