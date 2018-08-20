@@ -1,5 +1,7 @@
 # iste_itnu_2018
 Website for ISTE club of Nirma University for 2018
+* Live at https://iste-itnu.netlify.com/
+
 
 ![iste Logo](/img/iste-logo-dark.png)
 
