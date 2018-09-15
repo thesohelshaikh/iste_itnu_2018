@@ -31,6 +31,7 @@ index page
   0% {
     -webkit-transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
   }
@@ -40,6 +41,7 @@ index page
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -60,6 +62,7 @@ index page
     bottom: -100px;
     opacity: 0
   }
+
   to {
     bottom: 0px;
     opacity: 1
@@ -71,11 +74,13 @@ index page
     bottom: -100px;
     opacity: 0
   }
+
   to {
     bottom: 0;
     opacity: 1
   }
 }
+
 /* 
 =================
 index page
@@ -85,17 +90,19 @@ index page
 #header-img {
   max-height: 15vh;
 }
+
 /* Removes additional margin on left and right */
 #brand-image {
   margin: 0;
-  }
-  
-#brand-logo {
-background: #03254E;
-margin: 0;
 }
+
+#brand-logo {
+  background: #03254E;
+  margin: 0;
+}
+
 nav {
-  background-image: linear-gradient(to right, rgb(146,254,157) 0%, rgb(0,201,255) 100%);
+  background-image: linear-gradient(to right, rgb(146, 254, 157) 0%, rgb(0, 201, 255) 100%);
 }
 
 .lead1 {
@@ -107,6 +114,7 @@ nav {
 #footer {
   background: #03254E;
 }
+
 /* loader css ends */
 
 .section-text {
@@ -115,7 +123,8 @@ nav {
   margin: auto;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -123,10 +132,14 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   color: #6c6f73;
-  background-image: linear-gradient(to right, rgba(146,254,157,0.7) 0%, rgba(0,201,255,0.7) 100%);
+  /* background-image: linear-gradient(to right, rgba(146,254,157,0.7) 0%, rgba(0,201,255,0.7) 100%); */
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: #333;
 }
 
@@ -162,6 +175,7 @@ img {
 .follow {
   margin-bottom: 100px;
 }
+
 /*
 ===================================================================
 
@@ -220,6 +234,7 @@ our team page
   border: 5px solid #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 @media(max-width:568px) {
   #team .member .pic {
     height: 50px;
@@ -227,6 +242,7 @@ our team page
     display: none;
   }
 }
+
 #team .member .pic img {
   object-fit: cover;
   max-width: 100%;
@@ -269,7 +285,9 @@ events page
 ===================================================================
 */
 
-.pimg1, .pimg2, .pimg3 {
+.pimg1,
+.pimg2,
+.pimg3 {
   position: relative;
   opacity: 0.70;
   background-position: center;
@@ -303,12 +321,12 @@ events page
 }
 
 .section-light {
-  background-color: rgba(146,254,157,0.7);
+  background-color: rgba(146, 254, 157, 0.7);
   color: #666;
 }
 
 .section-dark {
-  background-color:rgba(0,201,255,0.7);
+  background-color: rgba(0, 201, 255, 0.7);
   color: #ddd;
 }
 
@@ -334,7 +352,10 @@ events page
 }
 
 @media(max-width:568px) {
-  .pimg1, .pimg2, .pimg3 {
+
+  .pimg1,
+  .pimg2,
+  .pimg3 {
     background-attachment: scroll;
   }
 }
@@ -343,7 +364,7 @@ events page
 
 /*To centre the content using flexbox, removes the image ig width is less than 991px.*/
 
-@media screen and ( min-width: 991px) {
+@media screen and (min-width: 991px) {
   .feature-content {
     display: flex;
     align-items: center;
@@ -359,10 +380,12 @@ Social icons
 .fab {
   color: #03254E;
 }
+
 .fab:hover {
   opacity: 0.7;
   transform: scale(1.2);
 }
+
 /* 
 ====================
 credits to developer
@@ -372,3 +395,22 @@ credits to developer
   color: white
 }
 
+/* 
+====================
+sponsors page
+====================
+ */
+#sponsor-images-container {
+  /* background-color: #333; */
+}
+
+#sponsor-images-container div {}
+
+#sponsor-img {
+  height: 200px;
+  widows: 200px;
+  background-color: #CCC;
+  align-content: center;
+  text-align: center;
+  margin: 10px;
+}
