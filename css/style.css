@@ -400,17 +400,16 @@ credits to developer
 sponsors page
 ====================
  */
-#sponsor-images-container {
-  /* background-color: #333; */
-}
-
-#sponsor-images-container div {}
 
 #sponsor-img {
   height: 200px;
-  widows: 200px;
-  background-color: #CCC;
+  width: 200px;
+  /* background-color: #CCC; */
   align-content: center;
   text-align: center;
   margin: 10px;
+}
+
+#sponsor-img img {
+  object-fit: contain;
 }
