@@ -72,7 +72,7 @@ index page
 @keyframes animatebottom {
   from {
     bottom: -100px;
-    opacity: 0
+    opacity: 20%;
   }
 
   to {
@@ -88,7 +88,7 @@ index page
 */
 
 #header-img {
-  max-height: 15vh;
+  max-height: 10em;
 }
 
 /* Removes additional margin on left and right */
@@ -112,7 +112,7 @@ nav {
 }
 
 #footer {
-  background: #03254E;
+  background: #ccc;
 }
 
 /* loader css ends */
@@ -205,7 +205,7 @@ contact page
 }
 
 .footer {
-  margin-top: 50px;
+  margin-top: 50vh;
 }
 
 /*
