@@ -413,3 +413,14 @@ sponsors page
 #sponsor-img img {
   object-fit: contain;
 }
+
+/* 
+==========================
+Google Form for comedy page
+==========================
+ */
+
+#google-form {
+  margin: auto;
+  text-align: center;
+}
